@@ -1,0 +1,17 @@
+# Use the tested dependency versions when resolving these packages.
+-c requirements-lock.txt
+
+# Data handling
+numpy==2.5.3
+pandas==3.0.6
+
+# Visualization
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# Modeling and clustering
+scikit-learn==1.9.1
+
+# Notebooks
+jupyterlab==4.6.4
+ipykernel==7.4.0
