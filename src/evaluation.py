@@ -54,6 +54,9 @@ def summarize(model_name, feature_set, scores, params=None, **extra):
     row.update({m: v.mean() for m, v in scores.items()})
     row["accuracy_sd"] = scores["accuracy"].std()
     row["params"] = params or {}
+    # Per-fold scores; folds are identical across feature sets, so they can be paired
+    row["fold_accuracy"] = scores["accuracy"].tolist()
+    row["fold_log_loss"] = scores["log_loss"].tolist()
     row.update(extra)
     return row
 

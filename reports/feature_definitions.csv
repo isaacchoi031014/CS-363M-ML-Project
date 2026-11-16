@@ -1,0 +1,28 @@
+feature,group,definition
+dragonDiff,objective,Dragons taken by blue minus dragons taken by red
+blueDragons,objective,Dragons taken by blue (progress toward dragon soul)
+redDragons,objective,Dragons taken by red (progress toward dragon soul)
+heraldDiff,objective,Rift Heralds taken by blue minus red
+baronDiff,objective,Barons taken by blue minus red
+elderDiff,objective,Elder dragons taken by blue minus red
+outerTurretDiff,objective,Outer turrets destroyed by blue minus lost by blue
+innerTurretDiff,objective,Inner turrets destroyed by blue minus lost by blue
+baseTurretDiff,objective,Base turrets destroyed by blue minus lost by blue
+nexusTurretDiff,objective,Nexus turrets destroyed by blue minus lost by blue
+totalTurretDiff,objective,All turrets destroyed by blue minus lost by blue
+inhibitorDiff,objective,Inhibitors destroyed by blue minus lost by blue
+killDeathDiff,objective,Blue kills minus blue deaths
+killShare,objective,Smoothed share of all kills that blue has: (kills + 1) / (kills + deaths + 2)
+assistsPerKill,objective,Blue assists per blue kill (team-fight participation)
+wardDiff,objective,Enemy wards blue destroyed minus blue wards destroyed by red
+logWardsPlaced,objective,log(1 + wards placed by blue); tames extreme ward counts
+goldChange2,trajectory,Gold difference now minus 2 minutes ago
+goldChange4,trajectory,Gold difference now minus 4 minutes ago
+expChange4,trajectory,Experience difference now minus 4 minutes ago
+killDeathChange4,trajectory,Kill-death difference now minus 4 minutes ago
+goldSlope,trajectory,Least-squares slope of gold difference per minute since minute 10
+expSlope,trajectory,Least-squares slope of experience difference per minute since minute 10
+maxGoldLead,trajectory,Largest blue gold lead seen so far
+minGoldLead,trajectory,Smallest blue gold lead (largest deficit) seen so far
+goldVolatility,trajectory,Standard deviation of 2-minute gold-difference changes
+leadChanges,trajectory,Number of times the gold lead switched teams
