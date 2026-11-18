@@ -1,0 +1,66 @@
+{
+  "fingerprint": "19c81e3dc2ee47e71d59156f376978a90e4fb99f27b1353d0ebed3d040874036",
+  "signature": {
+    "provenance": {
+      "raw_sha256": "09c75afd71f43e3d41474f6f7d629485455489b53e363167bf574ab965a0a210",
+      "split_sha256": "123449c132a8a971c30fc17734ea34ebc48b6bc740b66639eb3e226df1c7f449",
+      "features_source_sha256": "553e183089efdc3e3784420a0fca874fae3eeb9fcd8c9f44d313f91a3c38fa2d",
+      "evaluation_source_sha256": "711e4aa08729f44415ce32854100d939f61e8362d05fb0da01d69809f00893f9",
+      "versions": {
+        "numpy": "2.5.3",
+        "pandas": "3.0.6",
+        "scikit-learn": "1.9.1",
+        "joblib": "1.6.0"
+      },
+      "python": "3.13.3",
+      "seed": 42
+    },
+    "minute": 14,
+    "training_row_hash": "b570f5bb4f8540a95bcef6b7be6148050116f29a0a5bdb2c3054afda06a1e1fb",
+    "columns": [
+      "goldDiff"
+    ],
+    "estimator": "src.evaluation.GoldLeadRule",
+    "base_params": {},
+    "grid": null,
+    "cv": {
+      "class": "StratifiedGroupKFold",
+      "n_splits": 5,
+      "shuffle": true,
+      "random_state": 42
+    }
+  },
+  "row": {
+    "model": "Gold-lead rule",
+    "features": "sign of goldDiff",
+    "accuracy": 0.7622063772408137,
+    "roc_auc": 0.7621778281916624,
+    "log_loss": 0.5486540829412209,
+    "brier": 0.18129517007016213,
+    "accuracy_sd": 0.007789786853061159,
+    "params": {},
+    "fold_accuracy": [
+      0.7533586818757921,
+      0.767807351077313,
+      0.7690747782002535,
+      0.7520283975659229,
+      0.768762677484787
+    ],
+    "fold_log_loss": [
+      0.5590492885716877,
+      0.5420569688561657,
+      0.5406137560910689,
+      0.5605383819670495,
+      0.5410120192201329
+    ],
+    "minute": 14,
+    "n_features": 1,
+    "train_matches": 19723,
+    "feature_columns": [
+      "goldDiff"
+    ],
+    "source": "Yejune (04)",
+    "elapsed_seconds": 3.571223374980036,
+    "fingerprint": "19c81e3dc2ee47e71d59156f376978a90e4fb99f27b1353d0ebed3d040874036"
+  }
+}

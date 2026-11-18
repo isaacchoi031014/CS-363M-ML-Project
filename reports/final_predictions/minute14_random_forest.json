@@ -1,0 +1,8 @@
+{
+  "freeze_id": "29c1f09c331b4640215ac098d120bd6f7bbccb4d0905adfe0bee05ce5a813048",
+  "minute": 14,
+  "model": "Random forest",
+  "n_predictions": 4927,
+  "prediction_sha256": "1836d21dfc11218448d9bae42c4d032455aa6b963b55b0cd9b814607d4b198ef",
+  "elapsed_seconds": 6.756496249989141
+}
