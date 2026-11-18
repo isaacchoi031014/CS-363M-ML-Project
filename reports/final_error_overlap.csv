@@ -1,0 +1,7 @@
+minute,model_a,model_b,matches,both_wrong,either_wrong,error_overlap_jaccard
+14,Logistic regression,Decision tree,4927,1019,1259,0.8093725178713265
+14,Logistic regression,Random forest,4927,1060,1211,0.8753096614368291
+14,Logistic regression,HistGradientBoosting,4927,1035,1219,0.8490566037735849
+14,Decision tree,Random forest,4927,1035,1266,0.8175355450236966
+14,Decision tree,HistGradientBoosting,4927,1008,1276,0.7899686520376176
+14,Random forest,HistGradientBoosting,4927,1038,1239,0.837772397094431

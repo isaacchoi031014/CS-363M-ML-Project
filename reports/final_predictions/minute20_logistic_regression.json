@@ -1,0 +1,8 @@
+{
+  "freeze_id": "29c1f09c331b4640215ac098d120bd6f7bbccb4d0905adfe0bee05ce5a813048",
+  "minute": 20,
+  "model": "Logistic regression",
+  "n_predictions": 4415,
+  "prediction_sha256": "164e9708bd052c1ffe1b64ba485fb69493aeaa1b729c54c4884c43324525f1cd",
+  "elapsed_seconds": 0.04411970899673179
+}
